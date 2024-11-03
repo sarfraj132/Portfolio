@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sarfarj's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="secondsection">About</a></li>
+                    <li><a href="/">Skill</a></li>
+                    <li><a href="/">Portfolio</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                    <svg class="menu" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 7l10 10M7 17L17 7"/></svg>
+                </ul>
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16M4 6h16M4 18h16"/></svg>
+            </div>
+
+    </header>
+    <main>
+
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello, My name is
+                <span class="name"> Sarfaraj Khan</span>
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="img/pick.png" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <!-- About section -->
+        <section class="secondsection">
+
+            <div class="leftSsecotion">
+                <h1>About Me</h1>
+                <p>I am a passionate and motivated web developer with a strong foundation in HTML, CSS, and JavaScript.
+                    I recently completed my degree in Computer Science, where I honed my skills in front-end and
+                    back-end development. I enjoy creating responsive and user-friendly websites that provide a seamless
+                    experience across devices. I have experience with frameworks like React and Node.js, and I'm always
+                    eager to learn new technologies and improve my skills..</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Educations')">Education </p>
+                </div>
+
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li>
+                            <span>UI/UX</span><br>Designing Web/App interfaces
+                        </li>
+                        <li>
+                            <span>Web Developement</span><br>Designing Web/App interfaces
+                        </li>
+                        <li>
+                            <span>App Developement</span><br>Building Android/ios apps
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li>
+                            <span>Fresher</span><br>No Experience
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Educations">
+                    <ul>
+                        <li>
+                            <span>2026 runing</span><br> B.tech from Malwa institute of science and technology
+                        </li>
+                        <li>
+                            <span>2023</span><br>DCA form Makhanlal unversity
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="rightSsecotion">
+                <div class="box">
+                    <img src="img/image (1).png" alt="">
+                </div>
+
+
+            </div>
+
+        </section>
+        <hr>
+        <!-- servieses -->
+        <section class="third-section">
+            <div class="container">
+                <h1>My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Web Design</h2>
+                        <p>Custom Website Design: We develop bespoke designs that reflect your brand identity, ensuring
+                            a memorable online presence.
+                            <br>
+                            Responsive Design: Our websites are optimized for all devices, providing a seamless
+                            experience for users on desktops, tablets, and smartphones.
+                            <br>
+                            User Experience (UX) Design: We focus on intuitive navigation and user-friendly layouts to
+                            enhance engagement and drive conversions.
+                            <br>
+                            UI Design: Our team crafts visually appealing interfaces that enhance user interaction and
+                            satisfaction.
+
+                        </p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <h2>UI/UX Design</h2>
+                        <p> User Experience (UX) Design: Our team focuses on understanding your users' needs to create
+                            intuitive and efficient navigation, enhancing overall usability.
+                            <br>
+                            User Interface (UI) Design: We craft visually appealing interfaces that captivate users,
+                            making interactions seamless and enjoyable.
+                        </p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <h2>App Design</h2>
+                        <p>Custom App Design: We develop tailored designs that align with your brand identity, ensuring a unique and memorable user experience.
+                            <br>
+                            User Experience (UX) Design: Our team focuses on understanding your users' needs to create intuitive and efficient navigation, enhancing overall usability.
+                            <br>
+                            User Interface (UI) Design: We craft visually appealing interfaces that captivate users, making interactions seamless and enjoyable.
+                            <br>
+                            Prototype Development: We create interactive prototypes that allow you to visualize the app’s functionality and design before development, facilitating feedback and revisions.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!----------portfolio----------------->
+
+        <section class="fourth-section">
+            <div class="container">
+                <h1>My Work</h1>
+                <div class="work-list">
+                    <div class="Work">
+                        <p>Presnt Time I am a Fresher this time not a work. Will soon I a have done more works complete
+                        </p>
+                        <img src="img/im2.webp" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- -----------------contact--------------- -->
+        <section class="fifth-section">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1>Contact Me</h1>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 15 15">
+                                <path fill="currentColor"
+                                    d="m14.5.5l.46.197a.5.5 0 0 0-.657-.657zm-14 6l-.197-.46a.5.5 0 0 0-.06.889zm8 8l-.429.257a.5.5 0 0 0 .889-.06zM14.303.04l-14 6l.394.92l14-6zM.243 6.93l5 3l.514-.858l-5-3zM5.07 9.757l3 5l.858-.514l-3-5zm3.889 4.94l6-14l-.92-.394l-6 14zM14.146.147l-9 9l.708.707l9-9z" />
+                            </svg>contact officalprogramer@gmail.com</p>
+
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M3.833 4h4.49L9.77 7.618l-2.325 1.55A1 1 0 0 0 7 10c.003.094 0 .001 0 .001v.021a2 2 0 0 0 .006.134q.008.124.035.33c.039.27.114.642.26 1.08c.294.88.87 2.019 1.992 3.141s2.261 1.698 3.14 1.992c.439.146.81.22 1.082.26a4 4 0 0 0 .463.04l.013.001h.008s.112-.006.001 0a1 1 0 0 0 .894-.553l.67-1.34l4.436.74v4.32c-2.111.305-7.813.606-12.293-3.874S3.527 6.11 3.833 4m5.24 6.486l1.807-1.204a2 2 0 0 0 .747-2.407L10.18 3.257A2 2 0 0 0 8.323 2H3.781c-.909 0-1.764.631-1.913 1.617c-.34 2.242-.801 8.864 4.425 14.09s11.848 4.764 14.09 4.425c.986-.15 1.617-1.004 1.617-1.913v-4.372a2 2 0 0 0-1.671-1.973l-4.436-.739a2 2 0 0 0-2.118 1.078l-.346.693a5 5 0 0 1-.363-.105c-.62-.206-1.481-.63-2.359-1.508s-1.302-1.739-1.508-2.36a5 5 0 0 1-.125-.447z" />
+                            </svg>9425380406</p>
+
+                        <div class="social-icon">
+                            <a href="https://www.instagram.com/_s_pathan_ji__"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="1em" height="1em" viewBox="0 0 24 24">
+                                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2">
+                                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8A4 4 0 0 1 16 11.37m1.5-4.87h.01" />
+                                    </g>
+                                </svg></a>
+
+                            <a href="https://www.facebook.com/profile.php?id=100044287279154"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                    <path fill="currentColor" fill-rule="evenodd"
+                                        d="M12 3.55a8.5 8.5 0 0 0-1.846 16.8v-5.175H8.762a.95.95 0 0 1-.949-.949v-1.701a.95.95 0 0 1 .949-.949h1.373l-.047-1.274v-.02c0-.881.152-2.531 1.448-3.458c.415-.297.797-.487 1.213-.598c.41-.11.825-.135 1.29-.135c.816 0 1.38.081 1.742.133l.168.024c.34.044.59.334.59.672v1.883a.68.68 0 0 1-.718.679h-.001c-.137.006-.67.027-1.128.027c-.344 0-.517.079-.617.185c-.107.115-.229.368-.229.935v.947h1.523a.95.95 0 0 1 .937 1.1l-.258 1.706a.95.95 0 0 1-.936.793h-1.266v5.174A8.5 8.5 0 0 0 12 3.55m-9.5 8.5a9.5 9.5 0 1 1 19 0c0 4.764-3.507 8.709-8.08 9.395a.5.5 0 0 1-.574-.495v-6.275a.5.5 0 0 1 .5-.5h1.722l.241-1.599h-1.963a.5.5 0 0 1-.5-.5V10.63c0-.677.14-1.235.5-1.619c.367-.392.868-.501 1.346-.501c.293 0 .621-.01.846-.017V7.2a10 10 0 0 0-1.499-.109c-.434 0-.748.025-1.032.101c-.277.074-.551.204-.89.445c-.857.614-1.029 1.78-1.03 2.637l.067 1.784a.5.5 0 0 1-.5.518h-1.84v1.599h1.84a.5.5 0 0 1 .5.5v6.275a.5.5 0 0 1-.574.495c-4.573-.686-8.08-4.63-8.08-9.395"
+                                        clip-rule="evenodd" />
+                                </svg></a>
+
+                            <a href="https://www.linkedin.com/in/sarfaraj-khan-a44a22303"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="-2 -2 24 24">
+                                    <g fill="currentColor">
+                                        <path
+                                            d="M15 11.13v3.697h-2.143v-3.45c0-.866-.31-1.457-1.086-1.457c-.592 0-.945.398-1.1.784c-.056.138-.071.33-.071.522v3.601H8.456s.029-5.842 0-6.447H10.6v.913l-.014.021h.014v-.02c.285-.44.793-1.066 1.932-1.066c1.41 0 2.468.922 2.468 2.902M6.213 5.271C5.48 5.271 5 5.753 5 6.385c0 .62.466 1.115 1.185 1.115h.014c.748 0 1.213-.496 1.213-1.115c-.014-.632-.465-1.114-1.199-1.114m-1.086 9.556h2.144V8.38H5.127z" />
+                                        <path
+                                            d="M4 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm0-2h12a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4" />
+                                    </g>
+                                </svg></a>
+                        </div>
+                        <a href="" class="btn">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form action="">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyright Sarfaraj. Made by the sarfaraj</p>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web Developer.', '&amp; Java Developer.'],
+            typeSpeed: 50,
+        });
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
